@@ -21,11 +21,8 @@
     <label for="qty"><b>Quantity</b></label>
     <input type="text" placeholder="Enter Quantity" name="mqty" required>
     <label for="price"><b>Price</b></label>
-    <input type="text" placeholder="Enter Price" name="price" required>
-        
-    <button class="submit" name = "submit" type="submit">Add Order</button>
-    
+    <input type="text" placeholder="Enter Price" name="price" required>       
+    <button class="submit" name = "submit" type="submit">Add Order</button>  
 </form>
-  
 </body>
 </html>

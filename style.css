@@ -1,34 +1,102 @@
-body {  
-    font-family: Arial, Sans - Serif;  
-} 
-a {  
-    color: #78b941; 
-    text-decoration:none;
-}  
-a:hover {
-    text-decoration:underline;}  
-.form {
-    width: 300px; 
-    margin: 0 auto;
-}  
-input[type= 'text'], input[type = 'password'] {  
-        width: 200 px;
-        border-radius: 2 px;
-        border: 1 px solid #CCC;
-        padding: 10 px;
-        color: #333; 
-        font-size: 14px; 
-        margin-top: 10px;}  
-input[type= 'submit'] {  
-        padding: 10 px 25 px 8 px;
-        color: #fff;
-        background-color:#78b941; 
-        text-shadow: rgba(0,0,0,0.24) 0 1px 0; 
-        font-size: 16px; 
-        box-shadow: rgba(255,255,255,0.24) 0 2px 0 0 inset,#fff 0 1px 0 0;
-        border: 1px solid #6faf38; 
-        border-radius: 2px; 
-        margin-top: 10px; 
-        cursor:pointer;}  
-input[type= 'submit']:hover {  
-        background-color:#80c248;}  
+    body {
+        background-color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h2 {
+        font: 200% Comic;
+        color: white ;
+        text-align: center;
+    }
+    b ,th{
+        color: white;
+        font: 150% comic;
+    }
+
+    form {
+        border: 1px solid ;
+    }
+
+    input[type=text], input[type=password] {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    }
+
+    table, th,tr, td {
+        padding: 25px;
+    }
+    th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    button {
+    background-color: skyblue;
+    color: white;
+    padding: 7px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font:120% comic;
+    }
+
+    button:hover {
+    opacity: 0.8;
+    }
+
+    .container {
+    padding: 16px;
+    }
+    a {  
+        color: black; 
+        text-decoration:none;
+    }  
+    a:hover {
+        text-decoration:underline;}  
+    .form {
+        width: 800px; 
+        margin: 0 auto;
+    } 
+    .formregister {
+        width: 600px;
+        margin: 0 auto;
+    }
+
+	table, th,tr, td {
+		border: 2px solid black;
+		color:black;
+	}
+	b ,th{
+		color: black;
+		font: 150% comic;
+	}
+	form {
+        border: 2px solid black;
+        /* margin-top:10%; */
+		margin-right: 10%;
+		margin-left: 10%;
+    }
+    .navbar {
+        width: 100%;
+        background-color: #555;
+        overflow: auto;
+      }
+      
+      .navbar a {
+        float: left;
+        padding: 12px;
+        color: white;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      
+      .navbar a:hover {
+        background-color: #000;
+      }

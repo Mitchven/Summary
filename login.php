@@ -19,25 +19,29 @@
     }  
 }  
 ?>  
-    <html>  
+<html>  
+
+<head>  
+    <title>Log In</title>  
+    <link rel="stylesheet" href="style.css" />  
+</head>  
   
-    <head>  
-        <title>Log In</title>  
-        <link rel="stylesheet" href="style.css" />  
-    </head>  
-  
-    <body>  
-        <div class="form">  
-            <h1>Log In</h1>  
-            <form action="" method="post">  
-                <input type="text" name="email" placeholder="Please Enter Email" required />  
-                <br />  
-                <input type="password" name="pass" placeholder="Please Enter Password" required />  
-                <br />  
-                <input type="submit" name="submit" value="Login" />  
-            </form>  
-            <p>Don't have an account yet?<a href="register.php"> Register</a></p>  
-        </div>  
-    </body>  
-  
-    </html>  
+<body>  
+    <div class="form">  
+        <center><h1>Log In</h1></center> 
+        <form action="" method="post">
+        <div class="container">
+        <label for="email"><b>Email Address</b></label>
+        <input type="text" name="email" placeholder="Please enter email" required>
+        <label for="pass"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="pass" required>  
+            <!-- <input type="text" name="email" placeholder="Please Enter Email" required />  
+            <br />  
+            <input type="password" name="pass" placeholder="Please Enter Password" required />  
+            <br />   -->
+            <input type="submit" name="submit" value="Login" />  
+        </form>  
+        <p>Don't have an account yet?<a href="register.php"> Register</a></p>  
+    </div>  
+</body>  
+</html>  
